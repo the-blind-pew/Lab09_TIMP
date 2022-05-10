@@ -27,9 +27,9 @@ jobs:
         
       - name: Moving to artifacts
         run: |
-          mv /home/runner/work/Lab06_TIMP/Lab06_TIMP/_build/*.deb artifacts
-          mv /home/runner/work/Lab06_TIMP/Lab06_TIMP/_build/*.zip artifacts
-          mv /home/runner/work/Lab06_TIMP/Lab06_TIMP/_build/*.tar.gz artifacts
+          mv /home/runner/work/Lab09_TIMP/Lab06_TIMP/_build/*.deb artifacts
+          mv /home/runner/work/Lab09_TIMP/Lab06_TIMP/_build/*.zip artifacts
+          mv /home/runner/work/Lab09_TIMP/Lab06_TIMP/_build/*.tar.gz artifacts
           
       - name: Create a release
         id: create_release
